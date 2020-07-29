@@ -121,11 +121,13 @@ body {
 	display: flex;
 }
 
-.contacts li:not(:last-child) {
+.contacts-item:not(:last-child) {
 	margin-right: 30px;
 }
 
-.contacts a {
+.contacts-item a {
+	display: inline-flex;
+	align-items: center;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -134,18 +136,20 @@ body {
 	color: var(--primary-text-color);
 }
 
-.contacts a:hover,
-.contacts a:focus {
+.contacts-item a:hover,
+.contacts-item a:focus {
 	color: var(--accent-color);
 }
 
-.contacts-item {
-	display: flex;
-	align-items: center;
+.icon-envelope {
+	width: 16px;
+	height: 12px;
+	margin-right: 10px;
 }
 
-.contacts-item img {
-	display: block;
+.icon-smartphone {
+	width: 10px;
+	height: 15px;
 	margin-right: 10px;
 }
 
