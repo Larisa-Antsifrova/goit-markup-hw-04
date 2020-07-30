@@ -26,10 +26,15 @@ body {
 	letter-spacing: 0.03em;
 }
 
+img {
+	display: block;
+}
+
 /* Rules for reseting properties */
 .link {
 	text-decoration: none;
 }
+
 .list {
 	margin: 0;
 	padding: 0;
@@ -45,7 +50,6 @@ body {
 }
 
 /* Header */
-
 /* Site navigation */
 .header-flexbox {
 	display: flex;
@@ -149,6 +153,7 @@ body {
 	margin-right: 10px;
 	fill: currentColor;
 }
+
 .icon-envelope {
 	width: 16px;
 	height: 12px;
@@ -186,7 +191,10 @@ body {
 
 .hero-title {
 	margin-top: 0;
+	margin-right: auto;
 	margin-bottom: 30px;
+	margin-left: auto;
+	width: 696px;
 
 	font-weight: 900;
 	font-size: 44px;
@@ -326,10 +334,6 @@ body {
 	margin-right: 30px;
 }
 
-.services img {
-	display: block;
-}
-
 .services h3 {
 	margin: 0;
 	padding-top: 27px;
@@ -365,10 +369,6 @@ body {
 
 .team-card:not(:nth-child(4n)) {
 	margin-right: 30px;
-}
-
-.team-member-picture {
-	display: block;
 }
 
 .team-member-information {
@@ -652,7 +652,6 @@ body {
 }
 
 .portfolio-projects img {
-	display: block;
 	width: 368px;
 }
 
